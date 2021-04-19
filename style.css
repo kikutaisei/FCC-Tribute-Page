@@ -32,7 +32,7 @@ body{
 
 /* Subtitle Text */
 #subtitle{
-    font: 2rem Poppins, sans-serif;
+    font: 2.5rem Poppins, sans-serif;
     margin: 5px auto;
 }
 
@@ -42,6 +42,7 @@ body{
     border-radius: 10px;
     width: 100%;
     margin-top: 2.5px;
+    margin-bottom :2.5px;
     position: relative;
 }
 
@@ -68,4 +69,68 @@ body{
 /* Image Caption */
 #img-caption{
     font: 1.5rem Oswald, sans-serif;
+}
+
+/* Second Layer (Tribute Info Subtitle & Timeline Container) */
+#tribute-info{
+    background-color: #F39C12;
+    border: 3px solid #2980B9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2.5px;
+}
+
+/* Tribute Info Subtitle Container */
+#tribute-info-subtitle{
+    text-align: center;
+    font: 1.2rem Oswald, sans-serif;
+}
+
+/* Tribute Info Timeline Container */
+#tribute-info-timeline{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Timeline Event */
+.timeline-event{
+    background-color: #AF7AC5;
+    border: 3px solid #2980B9;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+/* Timeline Event Year */
+.year{
+    font: 2rem Roboto, sans-serif;
+    margin: 5px auto;
+}
+
+/* Timeline Event Description */
+.description{
+    font: 1.5rem Poppins, sans-serif;
+    margin: 5px auto;
+}
+
+/* Tribute Link Container */
+#tribute-link-container{
+    text-align: center;
+    margin: 25px auto;
+}
+
+/* Tribute Link (Not Hovering) */
+#tribute-link:link, #tribute-link:visited{
+    background-color: #5247FF;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF; 
+    border-radius: 5px;
+    text-decoration: none;
+    font: 1.2rem Roboto, sans-serif;
+    padding: 15px 15px;
+}
+
+/* Tribute Link (Hovering) */
+#tribute-link:hover, #tribute-link:active{
+    background-color: #4790FF;
 }
