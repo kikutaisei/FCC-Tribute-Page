@@ -8,6 +8,12 @@ body{
     background-color: #F9EBEA;
 }
 
+/* Main Wrapper */
+#main{
+    margin: 0 auto;
+    width: 100%;
+}
+
 /* Second Layer (Title & Image Containers) */
 #header{
     display: flex;
@@ -133,4 +139,57 @@ body{
 /* Tribute Link (Hovering) */
 #tribute-link:hover, #tribute-link:active{
     background-color: #4790FF;
+}
+
+/* Tablet Size Only */
+@media only screen and (min-width: 750px){
+    #main{
+        width: 600px;
+    }
+}
+
+/* Desktop Only */
+@media only screen and (min-width: 1000px){
+    #main{
+        width: 850px;
+    }
+
+    #header{
+        justify-content: space-between;
+    }
+
+    #title-div{
+        width: 47%;
+        padding: 120px 0;
+    }
+
+    #img-div{
+        width: 47%;
+    }
+
+    #img-caption-div{
+        width: 80%;
+        left: 10%;
+        right: 80%;
+    }
+
+    #img-caption{
+        font: 2rem Oswald, sans-serif;
+    }
+
+    #tribute-info-subtitle{
+        font: 2rem Oswald, sans-serif;
+    }
+
+    .year{
+        font: 3rem Roboto, sans-serif;
+    }
+    
+    .description{
+        font: 2rem Poppins, sans-serif;
+    }
+
+    #tribute-link:link, #tribute-link:visited{
+        font: 2rem Roboto, sans-serif;
+    }
 }
