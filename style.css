@@ -1,0 +1,71 @@
+/* Root Style */
+html{
+    font-size: 10px;
+}
+
+/* Foundation Layer */
+body{
+    background-color: #F9EBEA;
+}
+
+/* Second Layer (Title & Image Containers) */
+#header{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Title Container */
+#title-div{
+    background-color: #E74C3C;
+    border: 3px solid #2980B9;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 2.5px;
+    text-align: center;
+}
+
+/* Title Text */
+#title{
+    font: 5rem Roboto, sans-serif;
+    margin: 5px auto;
+}
+
+/* Subtitle Text */
+#subtitle{
+    font: 2rem Poppins, sans-serif;
+    margin: 5px auto;
+}
+
+/* Image Container */
+#img-div{
+    border: 3px solid #2980B9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+/* Image */
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Image Caption Container */
+#img-caption-div{
+    position: absolute;
+    background-color: #F7F9F9;
+    opacity: 0.7;
+    text-align: center;
+    bottom: 10px;
+    left: 20%;
+    right: 20%;
+    border-radius: 6px;
+}
+
+/* Image Caption */
+#img-caption{
+    font: 1.5rem Oswald, sans-serif;
+}
